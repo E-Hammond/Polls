@@ -1,0 +1,16 @@
+
+.form_borders{
+    border: 1px solid rgb(240, 243, 243);
+    background-color: rgb(240, 243, 243);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.login{
+    border: 1px solid;
+    background-color: rgb(166, 90, 236);
+    margin-left: 65px;
+    padding:5px ;
+    width: 172px;
+    border-radius: 10px;
+}

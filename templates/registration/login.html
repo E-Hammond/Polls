@@ -1,0 +1,10 @@
+<div class='container'>
+  <h2>LogIn Page</h2>
+  <form action="{% url 'polls:home' %}" method="POST" >
+    {% csrf_token %}
+<!--    <p>{{ form.username }}</p>-->
+<!--    <p>{{ form.password }}</p>-->
+<!--    <p>{{ form.email }}</p>-->
+    <input type="submit" value="Create an account" class="btn">
+  </form>
+</div>
